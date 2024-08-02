@@ -12,11 +12,11 @@ int main()
 
     FILE *intermediate, *optab, *symtbl, *output, *len;
 
-    intermediate = fopen("out11.txt", "r");
-    optab = fopen("optab11.txt", "r");
-    symtbl = fopen("symtble11.txt", "r");
-    output = fopen("output22.txt", "w");
-    len = fopen("len.txt", "r");
+    intermediate = fopen("out.txt", "r");
+    optab = fopen("optab.txt", "r");
+    symtbl = fopen("symtab.txt", "r");
+    output = fopen("output.txt", "w");
+    len = fopen("length.txt", "r");
 
     if (intermediate == NULL || optab == NULL || symtbl == NULL || output == NULL || len == NULL)
 	{
