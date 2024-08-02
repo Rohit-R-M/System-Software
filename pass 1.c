@@ -8,11 +8,11 @@ int main()
 
     FILE *fp1, *fp2, *fp3, *fp4,*fp5;
 
-    fp1 = fopen("input11.txt", "r");
-    fp2 = fopen("optab11.txt", "r");
-    fp3 = fopen("symtble11.txt", "w");
-    fp4 = fopen("out11.txt", "w");
-    fp5=fopen("len11.txt","w");
+    fp1 = fopen("input.txt", "r");
+    fp2 = fopen("optab.txt", "r");
+    fp3 = fopen("symtab.txt", "w");
+    fp4 = fopen("out.txt", "w");
+    fp5=fopen("length.txt","w");
     fscanf(fp1, "%s\t%s\t%x", label, opcode, &start);
 
     if(strcmp(opcode, "START")==0) 
