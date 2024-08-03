@@ -12,7 +12,7 @@ int main()
      int flag=0;
     file = fopen("abc.txt", "r");
     fscanf(file, "%s", line);
-    printf("Enter program name: ");
+    printf("Enter program name: "); //program name is **
     scanf("%s", name);
     for(i=0;i<strlen(name);i++)
     {
