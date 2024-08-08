@@ -1,0 +1,4 @@
+LDA	00
+MUL	20
+STA	0C
+END	**
