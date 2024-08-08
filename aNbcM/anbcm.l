@@ -1,9 +1,13 @@
+
 %{
-    #include <stdio.h>
-    int  ca=0,cc=0;
-    int yylex(void);
-    void yyerror();
+#include "anbcm.tab.h"    
 %}
-%token A B c
-string a B c{
-;}
+%%
+a   {return A;}
+b   {return B;}
+c   {return C;}
+%%
+int yywrap()
+{
+    return 1;
+}
